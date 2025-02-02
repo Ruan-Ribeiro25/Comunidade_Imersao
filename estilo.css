@@ -1639,7 +1639,7 @@ margin-right: 0px;
           float: left;
           display: block;
           flex-wrap: wrap;  
-          margin-top: 10px;
+          margin-top: 20px;
           margin-bottom: 0px;
           bottom: 0px;
           margin-left:20px;
@@ -2235,6 +2235,7 @@ flex-wrap: wrap;
        .slide{
         display: none;
         margin-top: 35px;
+        width: 100%;
        }
 
         .slideshow-container img {
