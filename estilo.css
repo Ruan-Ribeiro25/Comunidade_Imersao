@@ -2212,7 +2212,9 @@ flex-wrap: wrap;
 
         }
 
-       
+       .slide{
+        display: flex;
+       }
 
         .slideshow-container img {
           width: 100%;
