@@ -857,8 +857,8 @@ html {
         }
 
         #linhagaleria1 {
-          margin-top: 95px;
-          margin-bottom: -130px;
+          margin-top: 0px;
+          margin-bottom: -90px;
           color: rgb(0, 255, 0);
 
         }
@@ -1561,6 +1561,9 @@ margin-right: 0px;
 
 }
 
+#textoprincipalgaleria{
+  margin-top: 120px;
+}
 
 }
 
@@ -2037,10 +2040,13 @@ flex-wrap: wrap;
         }
 
         #linhagaleria1{
-          margin-top: 100px;
+          margin-top: 0px;
           margin-bottom: -90px;
         }
 
+        #linhagaleria2{
+          margin-bottom: -220px;
+        }
         #linhahome {
           margin-top: 0px;
           margin-left: 0px;
@@ -2307,6 +2313,10 @@ flex-wrap: wrap;
     
             }
 
+            #chatbootgaleria{
+              margin-bottom: 0px;
+            }
+
           #linhanav{
   
             height: 50px;
@@ -2560,8 +2570,13 @@ flex-wrap: wrap;
       padding-left: 0px;
       background-color: #00ab4a;
       border: 2px solid rgb(0, 184, 67);
+      margin-top: 0px;
     
     } 
+
+    .slidegaleria{
+      margin-top: 0px;
+    }
 
     #tbavaliacao{
       display: block;
@@ -2666,7 +2681,7 @@ flex-wrap: wrap;
 
       #textoprincipalhome {
         margin-top: 0px;
-        margin-bottom: -95px;
+        margin-bottom: -100px;
 
       }
 
