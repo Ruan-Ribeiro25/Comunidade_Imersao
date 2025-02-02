@@ -2333,8 +2333,8 @@ flex-wrap: wrap;
             top: 0px;
             margin-bottom: 10px;
             bottom: 0px;
-            justify-content: left;
-            float: center;
+            justify-content: center;
+            float: left;
             text-align: center;
             border: 3px solid rgb(0, 255, 0);
     
