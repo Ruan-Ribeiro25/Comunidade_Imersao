@@ -1639,7 +1639,7 @@ margin-right: 0px;
           float: left;
           display: block;
           flex-wrap: wrap;  
-          margin-top: 0px;
+          margin-top: 10px;
           margin-bottom: 0px;
           bottom: 0px;
           margin-left:20px;
@@ -1647,6 +1647,7 @@ margin-right: 0px;
           margin-right: -25px;
           right: 0px;
           grid-area: nav;
+          width: 130px;
         
         }
   
