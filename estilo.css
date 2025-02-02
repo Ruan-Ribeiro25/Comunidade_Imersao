@@ -9,6 +9,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Estilo padrão para desktop */
+body {
+  font-size: 16px;
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+}
+
 
 
         .container1 {
@@ -2213,7 +2232,8 @@ flex-wrap: wrap;
         }
 
        .slide{
-        display: flex;
+        display: none;
+        margin-top: 15px;
        }
 
         .slideshow-container img {
