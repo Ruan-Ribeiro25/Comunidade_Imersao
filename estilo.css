@@ -1565,6 +1565,12 @@ margin-right: 0px;
   margin-top: 120px;
 }
 
+#descricao2{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
 }
 
 @media (max-width: 970px) {
