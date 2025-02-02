@@ -1787,8 +1787,8 @@ margin-right: 0px;
 
 #menu li {
   border: 1px solid #c0c0c0; /* Define a borda para cada item de menu */
-  padding: 5px; /* Adiciona um espaço interno ao redor do texto */
-  margin: 5px; /* Adiciona um espaço entre os itens de menu */
+  padding: 1px; /* Adiciona um espaço interno ao redor do texto */
+  margin: 2px; /* Adiciona um espaço entre os itens de menu */
 }
 
 
@@ -1842,7 +1842,8 @@ margin-right: 0px;
 
 .menu li ul {
   display: none;
- 
+  display: block;
+  flex-wrap: wrap;
   margin-top: 0px;
 
   left: 0px;
@@ -2313,7 +2314,7 @@ flex-wrap: wrap;
           right: 0px;
           margin-top: -60px;
           top: 0px;
-          margin-bottom: 20px;
+          margin-bottom: 45px;
           bottom: 0px;
           justify-content: center;
           text-align: center;
