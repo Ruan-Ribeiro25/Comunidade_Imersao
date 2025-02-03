@@ -1593,6 +1593,102 @@ margin-right: 0px;
 }
 
 @media (max-width: 970px) {
+
+  /* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* Layout Improvements */
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  height: auto;
+  padding: 10px;
+}
+
+/* Image Responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Default Media Query for Mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 5px;
+  }
+  .menu {
+    display: block;
+  }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .container {
+    padding: 8px;
+  }
+}
+
+/* Larger Screens */
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 5px;
+  }
+}
+
+/* Navigation Styling */
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  border-bottom: 1px solid #c0c0c0;
+  text-align: center;
+}
+
+.menu li:hover {
+  background: rgb(0, 255, 0);
+  color: #000;
+}
+
+/* Footer Fix */
+#footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
  
   #menu {
     display: none;
