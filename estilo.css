@@ -14,19 +14,6 @@ body {
   font-size: 16px;
 }
 
-/* Media query para tablets */
-@media (max-width: 768px) {
-  body {
-      font-size: 14px;
-  }
-}
-
-/* Media query para dispositivos móveis */
-@media (max-width: 480px) {
-  body {
-      font-size: 12px;
-  }
-}
 
 
 
@@ -319,7 +306,7 @@ body {
           
         }
 
-        @media (min-width: 970px) {
+        @media (min-width: 570px) {
 
         .foto {
           flex: 1;
@@ -1592,9 +1579,7 @@ margin-right: 0px;
 
 }
 
-@media (max-width: 970px) {
-
-  
+@media (max-width:570px) {
  
   #menu {
     display: none;
