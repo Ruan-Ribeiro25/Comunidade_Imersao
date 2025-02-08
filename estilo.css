@@ -2039,18 +2039,22 @@ flex-wrap: wrap;
         }
 
         #linha {
-          margin-top: 95px;
-          margin-bottom: -130px;
+          margin-top: 20px;
+          margin-bottom: px;
           color: rgb(0, 255, 0);
+          width: 100%;
+          position: absolute;
 
         }
 
         #linha1 {
-          margin-top: 20px;
-          margin-left: -80px;
+          margin-top: 255px;
+          margin-left: 0px;
           margin-right: 0px;
-          margin-bottom: -210px;
+          margin-bottom: 0px;
           color:  #00ff00;
+          width: 100%;
+        position: absolute;
 
         }
 
@@ -2063,6 +2067,8 @@ flex-wrap: wrap;
           margin-bottom: -220px;
         }
         #linhahome {
+          width: 100%;
+          position: absolute;
           margin-top: 0px;
           margin-left: 0px;
           margin-right: 0px;
@@ -2218,12 +2224,14 @@ flex-wrap: wrap;
           position: absolute;
           max-width: 100%;
           overflow: hidden;
+          margin-top: -108px;
+          
 
         }
 
        .slide{
         display: none;
-        margin-top: 35px;
+        margin-top: px;
         width: 100%;
        }
 
@@ -2237,6 +2245,7 @@ flex-wrap: wrap;
         .dots-container {
           text-align: center;
           margin-top: 170px;
+          margin-top: 10px;
 
         }
 
@@ -2272,9 +2281,11 @@ flex-wrap: wrap;
         }
 
         #textoprincipalhome {
-          margin-top: 120px;
+          
+          margin-top: 0px;
           margin-bottom: -95px;
-
+          width: 100%;
+          position: absolute;
         }
 
         .video-container{
